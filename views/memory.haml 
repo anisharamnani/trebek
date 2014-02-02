@@ -1,0 +1,7 @@
+%h1 Flatiron BK: Who is Who. 
+
+.board 
+	-@cards.each do |card|
+		= partial :memory_card, @card=card 
+
+%script{""http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""}
